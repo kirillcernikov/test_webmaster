@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans:ital@1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 </head>
 <body>
   <header class="header">
@@ -38,7 +39,85 @@
         </ul>
       </div>
     </nav>
+    <section class="wrapper ">
+      <div class="container swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="wrapper-content">
+              <img src="img/wrapper-img.png" alt="" class="wrapper-content__image">
+              <div class="wrapper-content__block">
+                <h2 class="wrapper-content__name">Cowhide <br> 
+                  Standard Crew</h2>
+                <p class="wrapper-content__paragraph">White coloured, short-sleeved, printed T-shirt for men by Levi's. This crew-neck T-shirt is made of organic cotton and comes in a regular fit. </p>  
+                <a href="#" class="wrapper-content__button">Shop now</a>
+              </div>
+             </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="wrapper-content">
+                <img src="img/wrapper-img.png" alt="" class="wrapper-content__image">
+                <div class="wrapper-content__block">
+                  <h2 class="wrapper-content__name">Cowhide <br> 
+                    Standard Crew</h2>
+                  <p class="wrapper-content__paragraph">White coloured, short-sleeved, printed T-shirt for men by Levi's. This crew-neck T-shirt is made of organic cotton and comes in a regular fit. </p>  
+                  <a href="#" class="wrapper-content__button">Shop now</a>
+                </div>
+               </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="wrapper-content">
+                  <img src="img/wrapper-img.png" alt="" class="wrapper-content__image">
+                  <div class="wrapper-content__block">
+                    <h2 class="wrapper-content__name">Cowhide <br> 
+                      Standard Crew</h2>
+                    <p class="wrapper-content__paragraph">White coloured, short-sleeved, printed T-shirt for men by Levi's. This crew-neck T-shirt is made of organic cotton and comes in a regular fit. </p>  
+                    <a href="#" class="wrapper-content__button">Shop now</a>
+                  </div>
+                 </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="wrapper-content">
+                    <img src="img/wrapper-img.png" alt="" class="wrapper-content__image">
+                    <div class="wrapper-content__block">
+                      <h2 class="wrapper-content__name">Cowhide <br> 
+                        Standard Crew</h2>
+                      <p class="wrapper-content__paragraph">White coloured, short-sleeved, printed T-shirt for men by Levi's. This crew-neck T-shirt is made of organic cotton and comes in a regular fit. </p>  
+                      <a href="#" class="wrapper-content__button">Shop now</a>
+                    </div>
+                   </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="wrapper-content">
+                      <img src="img/wrapper-img.png" alt="" class="wrapper-content__image">
+                      <div class="wrapper-content__block">
+                        <h2 class="wrapper-content__name">Cowhide <br> 
+                          Standard Crew</h2>
+                        <p class="wrapper-content__paragraph">White coloured, short-sleeved, printed T-shirt for men by Levi's. This crew-neck T-shirt is made of organic cotton and comes in a regular fit. </p>  
+                        <a href="#" class="wrapper-content__button">Shop now</a>
+                      </div>
+                     </div>
+                    </div>
+          </div>
+          <div class="swiper-pagination"></div>
+      </div>
+      
+    </section>
   </main>
   
+
+
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      loop: true,
+      autoplay: {
+      delay: 3000,
+    
+  },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
 </body>
 </html>
