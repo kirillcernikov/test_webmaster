@@ -175,7 +175,7 @@ header .header-content__total {
   line-height: 19px;
 }
 
-.featured {
+.featured-header {
   background-color: #3cc3b5;
   height: 60px;
 }
@@ -187,6 +187,7 @@ header .header-content__total {
   font-weight: 400;
   line-height: 25px;
   padding: 20px 0 25px 35px;
+  margin-left: 270px;
 }
 
 .featured-cards {
@@ -244,4 +245,59 @@ header .header-content__total {
   line-height: 21px;
   padding: 8px;
   margin-left: 15px;
+}
+
+.footer {
+  background-color: #3cc3b5;
+}
+
+.footer-copyright {
+  height: 46px;
+  background-color: #2da89b;
+}
+
+.footer-copyright__text {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-list__menu {
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+.footer-list__register {
+  list-style: none;
+  margin-top: 27px;
+}
+
+.footer-list__name {
+  color: #ffffff;
+  font-family: "Bebas Neue";
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.footer-list__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.footer-list__link:hover {
+  color: black;
 }
